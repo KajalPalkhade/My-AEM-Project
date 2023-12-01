@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-11-21T12:28:46.371+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/landing-page-template-"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid"/>
+            <container_2146722845
+                jcr:created="{Date}2023-10-20T00:33:46.558+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-21T12:53:38.808+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container">
+                <teaser
+                    jcr:created="{Date}2023-11-21T12:49:39.112+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-21T12:54:56.664+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/teaser"/>
+            </container_2146722845>
+        </root>
+    </jcr:content>
+</jcr:root>
